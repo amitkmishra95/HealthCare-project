@@ -1,0 +1,124 @@
+body {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('forum-image.jpg');
+}
+h1{
+    text-align: center;
+    color: black;
+    border: 20px solid gray;
+    border-radius:30%;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    /* text-decoration: dashed; */
+    /* text-decoration-line: underline; */
+    text-decoration-color: rgb(117, 211, 9);
+
+}
+#container{
+    width: 100%;
+    height: auto;
+
+display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10%;
+    
+}
+
+header {
+    background-color:#794DD1;
+    color: #fff;
+    /* padding: 0.5px; */
+    
+}
+.hero p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    color: coral;
+    text-decoration: wavy;
+    text-decoration-line:underline;
+    text-decoration-color: darkmagenta;
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    padding: 2em;
+    text-align: center;
+}
+
+
+
+.cta {
+    padding: 2em;
+    text-align: center;
+    border: 5px solid cornsilk;
+    border-radius: 10%;
+    width: 30%;
+    height:40%;
+    background-color: #de1fa4;
+    text-align: center;
+    justify-content: end;
+    width: auto;
+    height: 30%;
+
+    margin-right:20px;
+   
+}
+.cta p{
+    padding-top: 5px;
+    color: chartreuse;
+    font-size:large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.cta p {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta p:hover {
+    background-color:yellow;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    /* margin-top: 40%; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+
+}
